@@ -1,5 +1,5 @@
-name: 'TripPlanner'
-description: Travel Application
+name: 'Flutter_Showcase'
+description: Flutter Showcase Application (Firebase Auth/Cloud Firestore/MLKIT/Map)
 version: 1.0.0+1
 
 environment:

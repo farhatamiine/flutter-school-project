@@ -1,4 +1,3 @@
-import 'package:TripPlanner/pages/mainPage.dart';
 import 'package:TripPlanner/pages/wrapper.dart';
 import 'package:TripPlanner/utils/theme.dart';
 import 'package:TripPlanner/utils/themeNotifer.dart';
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeNotifier = Provider.of<ThemeNotifier>(context);
     return MaterialApp(
-      title: 'Travel',
+      title: 'Flutter Showcase',
       debugShowCheckedModeBanner: false,
       theme: themeNotifier.getTheme(),
       home: Wrapper(),
