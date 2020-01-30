@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "159281668032",
+    "firebase_url": "https://androidproject-c765e.firebaseio.com",
+    "project_id": "androidproject-c765e",
+    "storage_bucket": "androidproject-c765e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159281668032:android:892a76bf3794e721a2b225",
+        "android_client_info": {
+          "package_name": "com.amine.unsplash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159281668032-aj8gbmnhrronn03v1kh0h46tpmd0ltmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJyH6vQC0tVnXaiFkE9jDTLXJM4E0bMkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159281668032-aj8gbmnhrronn03v1kh0h46tpmd0ltmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

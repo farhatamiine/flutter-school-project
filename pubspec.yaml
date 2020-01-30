@@ -1,0 +1,31 @@
+name: 'TripPlanner'
+description: Travel Application
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  provider: ^4.0.2
+  day_night_switch: ^0.0.2+1
+  font_awesome_flutter: ^8.5.0
+  bottom_navy_bar: ^3.0.0
+  google_maps: ^3.4.1
+  firebase_auth: ^0.15.4
+  cloud_firestore: ^0.13.0+1
+  rflutter_alert: ^1.0.2
+  flutter_spinkit: ^4.1.1+1
+  image_picker: ^0.6.3+1
+  firebase_ml_vision: ^0.9.3+5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
