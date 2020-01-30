@@ -1,6 +1,6 @@
-import 'package:TripPlanner/Models/LoginModel.dart';
-import 'package:TripPlanner/pages/LoginPage.dart';
-import 'package:TripPlanner/pages/mainPage.dart';
+import 'package:Flutter_Showcase/Models/LoginModel.dart';
+import 'package:Flutter_Showcase/pages/LoginPage.dart';
+import 'package:Flutter_Showcase/pages/mainPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';

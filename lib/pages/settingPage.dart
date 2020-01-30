@@ -1,6 +1,6 @@
-import 'package:TripPlanner/Models/LoginModel.dart';
-import 'package:TripPlanner/utils/theme.dart';
-import 'package:TripPlanner/utils/themeNotifer.dart';
+import 'package:Flutter_Showcase/Models/LoginModel.dart';
+import 'package:Flutter_Showcase/utils/theme.dart';
+import 'package:Flutter_Showcase/utils/themeNotifer.dart';
 import 'package:day_night_switch/day_night_switch.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

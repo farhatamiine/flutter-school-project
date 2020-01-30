@@ -1,8 +1,8 @@
-import 'package:TripPlanner/pages/Ai.dart';
-import 'package:TripPlanner/pages/HomePage.dart';
-import 'package:TripPlanner/pages/Map.dart';
-import 'package:TripPlanner/pages/settingPage.dart';
-import 'package:TripPlanner/utils/bottomNavigationItem.dart';
+import 'package:Flutter_Showcase/pages/Ai.dart';
+import 'package:Flutter_Showcase/pages/HomePage.dart';
+import 'package:Flutter_Showcase/pages/Map.dart';
+import 'package:Flutter_Showcase/pages/settingPage.dart';
+import 'package:Flutter_Showcase/utils/bottomNavigationItem.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

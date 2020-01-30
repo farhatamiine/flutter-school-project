@@ -1,6 +1,5 @@
-import 'package:TripPlanner/pages/SecondPage.dart';
+import 'package:Flutter_Showcase/pages/SecondPage.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CustomCard extends StatelessWidget {
   CustomCard({@required this.title, this.description});

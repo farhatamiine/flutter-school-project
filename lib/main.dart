@@ -1,6 +1,6 @@
-import 'package:TripPlanner/pages/wrapper.dart';
-import 'package:TripPlanner/utils/theme.dart';
-import 'package:TripPlanner/utils/themeNotifer.dart';
+import 'package:Flutter_Showcase/pages/wrapper.dart';
+import 'package:Flutter_Showcase/utils/theme.dart';
+import 'package:Flutter_Showcase/utils/themeNotifer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
