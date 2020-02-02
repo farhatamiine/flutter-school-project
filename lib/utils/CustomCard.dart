@@ -28,7 +28,7 @@ class CustomCard extends StatelessWidget {
               right: new BorderSide(width: 1.0, color: Colors.white24),
             ),
           ),
-          child: Icon(Icons.event_note, color: Colors.white),
+          child: Icon(Icons.check, color: Colors.lightGreen),
         ),
         title: Text(
           "Title : " + title,

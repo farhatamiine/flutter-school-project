@@ -21,7 +21,10 @@ class SecondPage extends StatelessWidget {
             children: <Widget>[
               RichText(
                 textAlign: TextAlign.center,
-                text: TextSpan(text: description),
+                text: TextSpan(
+                  text: description,
+                  style: TextStyle(color: Colors.black),
+                ),
                 softWrap: true,
               ),
               SizedBox(height: 10.0),

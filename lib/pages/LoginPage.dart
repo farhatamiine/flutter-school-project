@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:Flutter_Showcase/Models/LoginModel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -92,7 +94,8 @@ class _LoginPageState extends State<LoginPage> {
               user.status == Status.Authenticating
                   ? Center(
                       child: SpinKitCubeGrid(
-                      size: 20,
+                      color: Color(0xff013C93),
+                      size: 35,
                     ))
                   : Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -106,9 +109,7 @@ class _LoginPageState extends State<LoginPage> {
                               if (_formKey.currentState.validate()) {
                                 if (!await user.signIn(
                                     _email.text, _password.text))
-                                  _key.currentState.showSnackBar(SnackBar(
-                                    content: Text("Something is wrong"),
-                                  ));
+                                  log("Something wrong");
                               }
                             }
                           },

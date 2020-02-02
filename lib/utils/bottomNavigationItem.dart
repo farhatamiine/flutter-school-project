@@ -4,8 +4,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 List<BottomNavyBarItem> itemsBar = [
   BottomNavyBarItem(
-    icon: Icon(FontAwesomeIcons.vial),
-    title: Text('API'),
+    icon: Icon(FontAwesomeIcons.fireAlt),
+    title: Text('Firebase'),
     activeColor: Color(0xFF3f51b5),
     inactiveColor: Color(0xff9e9e9e),
   ),
@@ -16,8 +16,8 @@ List<BottomNavyBarItem> itemsBar = [
     inactiveColor: Color(0xff9e9e9e),
   ),
   BottomNavyBarItem(
-    icon: Icon(FontAwesomeIcons.brain),
-    title: Text('AI'),
+    icon: Icon(Icons.face),
+    title: Text('Faces(AI)'),
     activeColor: Color(0xFF3f51b5),
     inactiveColor: Color(0xff9e9e9e),
   ),

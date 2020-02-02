@@ -18,7 +18,7 @@ class _ApiPageState extends State<ApiPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Use Api"),
+        title: Text("Using Firebase"),
         leading: Icon(FontAwesomeIcons.vial),
       ),
       body: Center(
@@ -67,6 +67,12 @@ class _ApiPageState extends State<ApiPage> {
 
   _showDialog() async {
     Alert(
+        style: AlertStyle(
+          overlayColor: Color.fromRGBO(8, 35, 97, 0.5),
+          animationType: AnimationType.grow,
+          constraints: BoxConstraints.expand(),
+        ),
+        type: AlertType.info,
         context: context,
         title: "Make a Task",
         content: Padding(
