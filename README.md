@@ -16,8 +16,6 @@ Those are the step to follow:
 flutter doctor
 flutter pub get
 flutter run -d <device id>
-Shift + R => hot restart
-r => hot reload
 ```
 
 - 🎈 Enjoy
